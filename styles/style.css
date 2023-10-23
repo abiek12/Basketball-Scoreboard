@@ -120,19 +120,20 @@ button:active {
 @media screen and (max-width: 668px) {
   .scoreboard {
     flex-direction: column;
-    padding: 2.5em 0;
+    padding: 2.4em 0;
+    gap: 1.6em;
   }
   .container > h2 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
   .guest,
   .home {
     width: 16em;
-    height: 18em;
+    height: 19em;
   }
   .home-display,
   .away-display {
-    width: 8em;
+    width: 8.5em;
     height: 8em;
     margin: 0.8em auto 1.5em auto;
   }
