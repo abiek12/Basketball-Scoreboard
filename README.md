@@ -8,7 +8,7 @@ This is a JavaScript-based Basketball Scoreboard application designed for tracki
 
 ## Demo
 
-See the scoreboard in action here: [Scoreboard Demo](https://abiek12.github.io/Basketball-Scoreboard/)
+See the scoreboard in action here: [Demo](https://abiek12.github.io/Basketball-Scoreboard/)
 
 ## Installation
 
@@ -35,5 +35,5 @@ Special thanks to [Scrimba](https://www.scrimba.com/) for their valuable educati
 ## Contact
 
 - Abhishek p p
-- GitHub: [Your GitHub Profile](https://github.com/abiek12)
+- GitHub: [abiek12](https://github.com/abiek12)
 - Email: abhishekkanichery@gmail.com
