@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-basketball-32.png"
+      type="image/x-icon"
+    />
+    <!-- stylesheet Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Scoreboard</h2>
+      <div class="scoreboard">
+        <div class="home">
+          <h3>HOME</h3>
+          <div class="home-display">
+            <h2 id="home-score">0</h2>
+          </div>
+          <div class="buttons">
+            <button onclick="homePlusOne()" class="plusone-btn">+1</button>
+            <button onclick="homePlusTwo()" class="plustwo-btn">+2</button>
+            <button onclick="homePlusThree()" class="plusthree-btn">+3</button>
+            <button onclick="homeReset()" class="reset-btn">Reset</button>
+          </div>
+        </div>
+        <div class="guest">
+          <h3>AWAY</h3>
+          <div class="away-display">
+            <h2 id="away-score">0</h2>
+          </div>
+          <div class="buttons">
+            <button onclick="awayPlusOne()" class="plusone-btn">+1</button>
+            <button onclick="awayPlusTwo()" class="plustwo-btn">+2</button>
+            <button onclick="awayPlusThree()" class="plusthree-btn">+3</button>
+            <button onclick="awayReset()" class="reset-btn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/script.js"></script>
+</html>
